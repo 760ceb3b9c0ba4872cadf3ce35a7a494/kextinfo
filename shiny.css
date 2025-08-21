@@ -1,0 +1,50 @@
+body {
+    background: #FFD6DD;
+    margin: 12px;
+}
+
+table {
+    border: 2px outset #FFC0CB;
+    background: #FFC0CB;
+    padding: 2px;
+    white-space: nowrap;
+}
+
+th {
+    background: #FFB8C4;
+}
+
+td, th {
+    border: 1px inset #FFD6DD;
+    padding: 3px;
+    vertical-align: top;
+}
+
+.cell-version {
+    text-align: right;
+}
+
+.cell-address, .cell-size, .cell-wired, .cell-uuid {
+    font-family: monospace;
+}
+
+.cell-size, .cell-wired {
+    text-align: right;
+}
+
+a,
+a:visited {
+  color: #7F2334;
+}
+
+summary {
+    cursor: pointer;
+    min-width: 128px;
+}
+
+ul {
+    margin-bottom: 0px;
+    margin-top: 4px;
+    padding: 0px;
+    list-style-position: inside;
+}
